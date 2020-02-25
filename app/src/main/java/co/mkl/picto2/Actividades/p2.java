@@ -27,13 +27,15 @@ public class p2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent iAtr = new Intent(p2.this,MainActivity.class);
                 startActivity(iAtr);
+               // super.finish();
+                overridePendingTransition(R.transition.slide_in_left,R.transition.slide_out_right);
             }
         });
         btnF.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent iF   = new Intent(p2.this, p1.class);
-
+                startActivity(iF);
             }
         });
     }
