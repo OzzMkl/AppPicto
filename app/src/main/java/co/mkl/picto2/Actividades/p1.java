@@ -2,10 +2,7 @@ package co.mkl.picto2.Actividades;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 import co.mkl.picto2.R;
 
