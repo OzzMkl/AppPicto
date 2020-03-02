@@ -6,6 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".Actividades.p2">
 
+    <TextView
+        android:id="@+id/txtV"
+        android:layout_width="289dp"
+        android:layout_height="106dp"
+        android:text="Usa tus propios pictogramas"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtV2"
+        android:layout_width="274dp"
+        android:layout_height="48dp"
+        android:text="Sube tus pictogramas a la aplicacion y usalos en tus oraciones"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="238dp"
+        android:layout_height="223dp"
+        android:src="@drawable/aprender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/btnTerminar"
         android:layout_width="85dp"

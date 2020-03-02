@@ -23,6 +23,7 @@ public class SplashActivity extends AppCompatActivity {
                 Intent intent = new Intent( SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
+                overridePendingTransition(R.transition.slide_in_right, R.transition.slide_out_left);
             }
         }, delayMillis);
     }
