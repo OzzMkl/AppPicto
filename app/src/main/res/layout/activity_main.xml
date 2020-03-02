@@ -10,7 +10,7 @@
         android:id="@+id/textView2"
         android:layout_width="305dp"
         android:layout_height="163dp"
-        android:text="Comunicación por pictogramas digitales"
+        android:text="@string/comunicaci_n_por_pictogramas_digitales"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/ImLlevar"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,8 +20,7 @@
     <TextView
         android:layout_width="214dp"
         android:layout_height="37dp"
-        android:text="Todos los pictogramas en tu dispositivo movil
-¡Llevalos a donde quieras!"
+        android:text="@string/todos_los_pictogramas_en_tu_dispositivo_movil_llevalos_a_donde_quieras"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/bsiguiente"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +35,8 @@
         android:layout_marginBottom="25dp"
         android:src="@drawable/derecho"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/boton_siguiente" />
 
     <ImageView
         android:id="@+id/ImLlevar"
@@ -46,7 +46,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/pictograma_llevar"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

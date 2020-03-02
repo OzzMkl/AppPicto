@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Picto2</string>
+    <string name="bienvenido_a_picto">Bienvenido a PICTO</string>
+    <string name="logo_picto">Logo Picto</string>
+    <string name="logo_instituto_tecnologico_de_tehuacan">logo instituto tecnologico de tehuacan</string>
+    <string name="logo_tecnologico_nacional_de_mexico">logo tecnologico nacional de mexico</string>
+    <string name="usa_tus_propios_pictogramas">Usa tus propios pictogramas</string>
+    <string name="sube_tus_pictogramas_a_la_aplicacion_y_usalos_en_tus_oraciones">Sube tus pictogramas a la aplicacion y usalos en tus oraciones</string>
+    <string name="pictograma_aprender">Pictograma aprender</string>
+    <string name="comunicaci_n_por_pictogramas_digitales">Comunicación por pictogramas digitales</string>
+    <string name="todos_los_pictogramas_en_tu_dispositivo_movil_llevalos_a_donde_quieras">Todos los pictogramas en tu dispositivo movil ¡Llevalos a donde quieras!</string>
+    <string name="boton_siguiente">Boton siguiente</string>
+    <string name="pictograma_llevar">Pictograma llevar</string>
+    <string name="boton_terminar">Boton terminar</string>
+    <string name="boton_atras">boton atras</string>
 </resources>
