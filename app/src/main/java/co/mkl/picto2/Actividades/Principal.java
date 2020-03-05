@@ -6,14 +6,11 @@ import android.os.Bundle;
 
 import co.mkl.picto2.R;
 
-public class p1 extends AppCompatActivity {
-
-
+public class Principal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_p1);
-
+        setContentView(R.layout.activity_principal);
     }
 }

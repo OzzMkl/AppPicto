@@ -32,7 +32,7 @@ public class p2 extends AppCompatActivity {
         ibtnF.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inF = new Intent(p2.this,p1.class);
+                Intent inF = new Intent(p2.this,Principal.class);
                 startActivity(inF);
                 overridePendingTransition(R.transition.slide_in_right, R.transition.slide_out_left);
             }
